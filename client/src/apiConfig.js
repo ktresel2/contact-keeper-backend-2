@@ -1,6 +1,6 @@
 let apiUrl
 const apiUrls = {
-	production: 'https://contactkeeper223-backend.herokuapp.com',
+	production: 'https://contact-keeper-yk8t.onrender.com',
 	development: 'http://localhost:8000',
 }
 
