@@ -20,7 +20,7 @@ const Login = props => {
             clearErrors()
         }
         //es-lint-disble-next-line
-     }, [error, isAuthenticated])
+     }, [error, isAuthenticated, props.history])
 
     const [user, setUser] = useState({
         email: '',

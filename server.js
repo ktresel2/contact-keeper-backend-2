@@ -4,11 +4,11 @@ const cors = require('cors')
 const app = express()
 const path = require('path')
 
-// app.use(
-// 	cors({
-// 		origin: '*',
-// 	})
-// )
+app.use(
+	cors({
+		origin: '*',
+	})
+)
 
 // Connect DB
 connectDB()
